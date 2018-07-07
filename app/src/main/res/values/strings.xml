@@ -1,0 +1,11 @@
+<resources>
+  <string name="app_name">InterviewPrep</string>
+  <string name="anime_content_description">Anime Image</string>
+  <string name="journey_background_work">Background Work</string>
+  <string name="journey_kitsu">Kitsu App</string>
+  <string name="button_download">Download</string>
+  <string name="journey_simple_service">Simple Service</string>
+  <string name="send_message_hint">Say Something!</string>
+  <string name="send_message_cta">Send</string>
+  <string name="journey_fragments">Fragments</string>
+</resources>

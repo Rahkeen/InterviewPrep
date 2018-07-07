@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JourneyActivity"
+    >
+
+  <Button
+      android:id="@+id/journey_kitsu"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/journey_kitsu"
+      app:layout_constraintBottom_toTopOf="@+id/journey_backround_work"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_chainStyle="packed"
+      />
+
+  <Button
+      android:id="@+id/journey_backround_work"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/journey_background_work"
+      app:layout_constraintBottom_toTopOf="@+id/journey_simple_service"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/journey_kitsu"
+      />
+
+  <Button
+      android:id="@+id/journey_simple_service"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/journey_simple_service"
+      app:layout_constraintBottom_toTopOf="@+id/journey_fragments"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/journey_backround_work"
+      />
+
+  <Button
+      android:id="@+id/journey_fragments"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/journey_fragments"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/journey_simple_service"
+      />
+
+</android.support.constraint.ConstraintLayout>
